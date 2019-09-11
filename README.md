@@ -1,6 +1,4 @@
-# rest-api-app
-
-An example RESTful API built on Express web framework for Node.js. Connecting and working with MongoDB Atlas.
+#An example RESTful API built on Express web framework for Node.js. Connecting and working with MongoDB Atlas.
 
 ## Features
 
