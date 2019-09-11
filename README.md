@@ -1,5 +1,5 @@
 # REST API
-An example REST API built on Express web framework for Node.js. Connecting and working with MongoDB Atlas
+An example REST API for [Movie Library App](https://github.com/hulivets/movies-library) built on Express web framework for Node.js. Connecting and working with MongoDB Atlas
 
 ## Features
 
