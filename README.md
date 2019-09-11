@@ -1,4 +1,4 @@
-#An example RESTful API built on Express web framework for Node.js. Connecting and working with MongoDB Atlas.
+# An example RESTful API built on Express web framework for Node.js. Connecting and working with MongoDB Atlas.
 
 ## Features
 
@@ -19,7 +19,7 @@
 
 ## Instructions for launching the App.
 
-### `npm intall`
+### `npm install`
 
 installs all packages and the dependencies in the local node_modules folder.
 
