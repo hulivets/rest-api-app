@@ -81,27 +81,25 @@ module.exports = router
 
 // convert TXT to JSON
 
-const fs = require('fs')
-fs.readFile('sample_movies.txt', (err, data) => {
-    // if (err) throw err
-    // let title = data.toString()
-    // title = title.split(/[\r\n]/)
-    // let txt = []
-    // for (let i = 0; i < title.length; i++) {
-    //     if (title[i] === '') continue 
-    //         txt.push(title[i])
-    // }
-    // const arr = []
-    // const result = {}
+// const fs = require('fs')
+// fs.readFile('sample_movies.txt', (err, data) => {
+//     if (err) throw err
+//     let title = data.toString()
+//     title = title.split(/[\r\n]/)
+//     let txt = []
+//     for (let i = 0; i < title.length; i++) {
+//         if (title[i] === '') continue 
+//             txt.push(title[i])
+//     }
+//     const arr = []
+//     const result = {}
 
-    // txt.map(line => {
-    //     let key = line.split(/[: '']/)[0].toLowerCase()
-    //     let value = line.split(':')[1]
-    //     result[key] = value
-    //     arr.push(result)
+//     txt.map(line => {
+//         let key = line.split(/[: '']/)[0].toLowerCase()
+//         let value = line.split(':')[1]
+//         result[key] = value
+//         // arr.push(result)
 
-    // })
-    let txt = data.toString()
-    
-    console.log(JSON.stringify(txt))
-})
+//     })
+// console.log(arr)
+// })
